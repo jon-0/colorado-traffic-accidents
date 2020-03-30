@@ -1,10 +1,11 @@
-from IPython.display import HTML, display
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import qgrid
+from IPython.display import HTML, display
+plt.style.use('ggplot')
 from sklearn.neighbors import KNeighborsClassifier
-Import DecisionTreeClassifier from sklearn.tree
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
